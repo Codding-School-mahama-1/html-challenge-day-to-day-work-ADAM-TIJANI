@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <header> <STRONG>All common HTML</STRONG></header>
+    <FOrm>
+        <Fieldset>
+            <legend>basic</legend>
+            <label for="name"> text (Name):
+                <input type="text" name="name" id="name" placeholder="full name:">
+            </label> <br>
+            <label for="email"> email (Email):
+                <input type="email" name="email" id="email" placeholder="user@example.com">
+            </label> <br>
+            <label for="password">password:
+                <input type="password" name="password" id="password" placeholder="at least 8 characters">
+                </label> <br>
+            <label for="dob"> Telepone:
+                <input type="+250 7xxxxxxxxx" name="dob" id="telephone" placeholder="+250 7xxxxxxxxx">
+            </label> <br>
+            <label for="dob"> Serch:
+                <input type="search" name="dob" id="search" placeholder="search term">
+            </label> <br>
+            <label for="dob"> URL:
+                <input type="URL" name="dob" id="URL" placeholder="https://example.com">
+            </label> <br>
+        </Fieldset>
+        <fieldset>
+            <legend>Numbers&Sliders</legend>
+            <label for="Numbers"> Numbers:
+                <input type="number" name="Numbers" id="age" placeholder="0">
+            </label> <br>
+            <label for="range"> Range(0-10):
+                <input type="range" name="range" id="range" min="0" max="10">5
+            </label> <br>
+        </fieldset>
+        <fieldset>
+            <legend>Date&Time</legend>
+            <label for="date"> Date:
+                <input type="date" name="date" id="date">
+            </label> <br>
+            <label for="time"> Time:
+                <input type="time" name="time" id="time">
+            </label> <br>
+            <label for="datetime-local"> Date&Time(local):
+                <input type="datetime-local" name="datetime-local" id="datetime-local">
+            </label> <br>
+            <label for="Month"> Month:
+                <input type="Month" name="Month" id="Month">
+            </label> <br>
+            <label for="week"> Week:
+                <input type="week" name="week" id="week">
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Choices</legend>
+            Radio (plan):
+            <label for="basic"> 
+                <input type="radio" name="plan" id="basic" value="basic" checked>Basic
+            </label>
+            <label for="Pro"> 
+                <input type="radio" name="plan" id="Pro" value="Pro">Pro
+            </label>
+            <label for="Enterprise"> 
+                <input type="radio" name="plan" id="Enterprise" value="Enterprise">Enterprise
+            </label> <br>
+            Checkboxes:
+            <label for="checkbox"> 
+                <input type="checkbox" name="interests" id="coding" value="coding">suscribe to updates
+            </label>
+            <label for="checkbox"> 
+                <input type="checkbox" name="interests" id="music" value="music">I agree to the terms
+            </label> <br>
+            Select(not input,but common): <select name="" id=""><optgroup><option>choose</option></select>
+        </fieldset>
+        <fieldset>
+            <legend>Text Areas & Datalists</legend>
+            <label for="textarea"> Texarea: <br>
+            <textarea name="Texarea" id="bio" rows="4" cols="40" placeholder="write something..."></textarea>
+            </label> <br>
+            <label for="datalist">Text with Datalist Country:
+                <input list="browsers" name="browser" id="browser" placeholder="Start typing...">
+        </fieldset>
+        <fieldset>
+            <legend>Color and Files</legend>
+            <label for="color"> Color:
+                <input type="color" name="color" id="color" value="#ff0100">
+            </label> <br>
+            <label for="file"> File upload:
+                <input type="file" name="file" id="file">
+            </label> <br>
+        </fieldset>
+        <fieldset>
+            <legend>Hidden & Read only</legend>
+            <label for="hidden"> Read-only:
+                <input type="read" name="Read" id="Read" value="INV-000123">
+            </label> <br>
+            <label for="disabled"> Disabled:
+                <input type="disabled" name="disabled" id="disabled" value="disabled example" disabled>
+            </label> <br>
+        </fieldset>
+        <fieldset>
+            <legend>Buttons</legend>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+            <button type="button" onclick="alert('Button clicked!')">plain Button</
+        </fieldset>
+    </form>
+</body>
+</html>
